@@ -1,0 +1,33 @@
+[
+  {
+    "url": "/",
+    "name": "dashboard",
+    "slug": "dashboard",
+    "icon": "home-alt"
+  },
+  {
+    "url": "/users",
+    "name": "users_list",
+    "slug": "users",
+    "icon": "shopping-bag",
+    "permission": "users"
+  },
+  {
+    "url": "/elements",
+    "name": "elements",
+    "slug": "elements",
+    "icon": "home-alt"
+  },
+  {
+    "url": "/websites",
+    "name": "websites",
+    "slug": "websites",
+    "icon": "home-alt"
+  },
+  {
+    "url": "/statistics",
+    "name": "statistics",
+    "slug": "statistics",
+    "icon": "home-alt"
+  }
+]

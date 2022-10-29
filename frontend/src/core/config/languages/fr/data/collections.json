@@ -1,0 +1,14 @@
+{
+    "list": "Collections",
+    "create": "Nouvelle collection",
+    "update": "Modifier la collection",
+    "details": "Détails de la Collection",
+    "name_label" : "Nom",
+    "name_hint" : "Nom...",
+    "parent_label" : "Parent",
+    "parent_hint" : "sélectionner parent",
+    "slug_label" : "Url",
+    "slug_hint" : "nom-collection...",
+    "description_label" : "Description",
+    "description_hint" : "description..."
+}

@@ -1,0 +1,15 @@
+{
+    "list": "Shipping companies",
+    "create": "Add shipping companies",
+    "update": "Edit shipping companies",
+    "details": "shippers details",
+    "overview" : "Shippers companies information",
+    "name_label" : "Name",
+    "name_hint" : "name",
+    "logo_label" : "Logo of Shipping company",
+    "logo_hint" : "select image",
+    "link_label" : "Link Shipping company",
+    "link_hint" : "select shipping comapny",
+    "description_label" : "Description",
+    "description_hint" : "description..."
+}

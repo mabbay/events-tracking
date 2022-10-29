@@ -1,0 +1,18 @@
+{
+    "list": "المنشورات",
+    "create": "مشاركة جديدة",
+    "update": "تحرير المشاركة",
+    "details": "تفاصيل النشر",
+    "overview": "معلومات النشر",
+    "content": "محتوى المشاركة",
+    "post_content": "محتوى المشاركة",
+    "title_label": "العنوان",
+    "title_hint": "العنوان",
+    "url_label": "عنوان URL",
+    "url_hint": "/",
+    "status_label": "الحالة",
+    "description_label": "الوصف",
+    "description_hint": "الوصف ...",
+    "content_label": "المحتوى",
+    "categories_hint": "تحديد الفئات"
+}

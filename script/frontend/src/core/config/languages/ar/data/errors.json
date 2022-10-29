@@ -1,0 +1,24 @@
+{
+    "errors": "أخطاء",
+    "error": "خطأ",
+    "error_creating": "خطأ في الإنشاء",
+    "error_updating": "خطأ في التحديث",
+    "error_deleting": "خطأ في الحذف",
+
+    "name_errors_empty": "الاسم مطلوب",
+    "name_errors_min": "الاسم قصير جدًا",
+    "password_min_length": "يجب أن تكون كلمة المرور أكثر من 6 أحرف",
+    "customer_invalid_phone": "هاتف العميل غير صالح",
+    "customer_invalid_email": "البريد الإلكتروني للعميل غير صالح",
+    "customer_lastname_required": "اسم العميل الأخير مطلوب",
+    "customer_firstname_required": "اسم العميل مطلوب",
+    "address.country_errors_base": "الدولة مطلوبة",
+    "address.province_errors_base": "المقاطعة مطلوبة",
+    "address.city_errors_base": "المدينة مطلوبة",
+    "no_product_selected": "لم يتم تحديد منتج",
+
+    "error_theme_activated" : "خطأ في تفعيل الثيم",
+    "error_theme_added" : "خطأ في إضافة الثيم",
+    "error_app_activated" : "خطأ في تفعيل التطبيق",
+    "error_app_added" : "خطأ في إضافة التطبيق"
+}

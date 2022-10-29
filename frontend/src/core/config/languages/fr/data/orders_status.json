@@ -1,0 +1,12 @@
+{
+    "list":"États de commande",
+    "create":"Ajouter états de commande",
+    "add_edit" : "Ajoute/Modifier états de commande",
+    "select_status_label" : "États",
+    "select_status_hint" : "sélectionner l'état",
+    "name_label" : "Nom",
+    "name_hint" : "nom...",
+    "color_label" : "Couleur",
+    "description_label" : "Description"
+    
+}

@@ -1,0 +1,11 @@
+{
+    "list":"Orders Status",
+    "create":"Add status",
+    "add_edit" : "Add/Edit orders status",
+    "select_status_label" : "Status",
+    "select_status_hint" : "Select status",
+    "name_label" : "Name",
+    "name_hint" : "name...",
+    "color_label" : "Color",
+    "description_label" : "Description"
+}

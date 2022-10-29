@@ -1,0 +1,16 @@
+{
+    "list": "الصفحات",
+  "create": "صفحة جديدة",
+  "update": "تحرير الصفحة",
+  "details": "تفاصيل الصفحات",
+  "overview": "معلومات الصفحة",
+  "post_content": "محتوى الصفحة",
+  "title_label": "العنوان",
+  "title_hint": "العنوان",
+  "url_label": "عنوان Url",
+  "url_hint": "/",
+  "status_label": "الحالة",
+  "description_label": "الوصف",
+  "description_hint": "الوصف ...",
+  "content_label": "المحتوى"
+}

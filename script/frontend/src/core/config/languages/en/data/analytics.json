@@ -1,0 +1,18 @@
+{
+    "total_orders" : "Total orders",
+    "total_visitor" : "Total visitor",
+    "total_sold" : "Total sold",
+    "total_revenue" : "Total revenue",
+    "orders": "Orders",
+    "orders_by_product": "Orders by products",
+    "orders_by_status": "Orders by status",
+    "views": "Views",
+    "today" : "Today",
+    "yesterday" : "Yesterday",
+    "this_month" : "This Month",
+    "last_month" : "Last Month",
+    "this_year" : "This year",
+    "last_year" : "Last year",
+    "from" : "From",
+    "to" : "To"
+}

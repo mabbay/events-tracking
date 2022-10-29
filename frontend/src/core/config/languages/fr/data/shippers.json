@@ -1,0 +1,15 @@
+{
+    "list": "Sociétés de livraison",
+    "create": "Ajouter une société de livraison",
+    "update": "Modifier la société",
+    "details": "Détails de livraison",
+    "overview" : "Shippers companies information",
+    "name_label" : "Nom",
+    "name_hint" : "nom...",
+    "logo_label" : "Logo de la société",
+    "logo_hint" : "Sélectionner une image",
+    "link_label" : "Link Shipping company",
+    "link_hint" : "Sélectionner la société de livraison",
+    "description_label" : "Description",
+    "description_hint" : "description..."
+}

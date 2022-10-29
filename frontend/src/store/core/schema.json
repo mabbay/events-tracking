@@ -1,0 +1,26 @@
+[
+    {
+        "module": "elements",
+        "entity": "element"
+    },
+    {
+        "module": "websites",
+        "entity": "website"
+    },
+    {
+        "module": "actions",
+        "entity": "action"
+    },
+    {
+        "module": "pageViews",
+        "entity": "pageView"
+    },
+    {
+        "module": "roles",
+        "entity": "role"
+    },
+    {
+        "module": "users",
+        "entity": "user"
+    }    
+]

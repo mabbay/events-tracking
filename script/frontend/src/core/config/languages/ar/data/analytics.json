@@ -1,0 +1,18 @@
+{
+    "total_orders": "عدد الطلبيات",
+  "total_visitor": "عدد الزوار",
+  "total_sold": "إجمالي المبيعات",
+  "total_revenue": "إجمالي الإيرادات",
+  "orders": "الطلبات",
+  "orders_by_product": "الطلبات حسب المنتجات",
+  "orders_by_status": "الطلبات حسب الحالة",
+  "views": "المشاهدات",
+  "today": "اليوم",
+  "yesterday": "أمس",
+  "this_month": "هذا الشهر",
+  "last_month": "الشهر الماضي",
+  "this_year": "هذا العام",
+  "last_year": "العام الماضي",
+  "from": "من",
+  "to": "إلى"
+}

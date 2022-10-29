@@ -1,0 +1,14 @@
+{
+    "list": "المجموعات",
+  "create": "مجموعة جديدة",
+  "update": "تحرير المجموعة",
+  "details": "تفاصيل المجموعة",
+  "name_label": "الاسم",
+  "name_hint": "الاسم ...",
+  "parent_label": "الأصل",
+  "parent_hint": "تحديد الأصل",
+  "slug_label": "Url",
+  "slug_hint": "اسم المجموعة...",
+  "description_label": "الوصف",
+  "description_hint": "الوصف ..."
+}

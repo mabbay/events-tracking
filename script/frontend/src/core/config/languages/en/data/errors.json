@@ -1,0 +1,24 @@
+{
+    "errors": "Errors",
+    "error": "Error",
+    "error_creating": "Error Creating",
+    "error_updating": "Error Updating",
+    "error_deleting": "Error Deleting",
+    
+    "name_errors_empty": "Name is required",
+    "name_errors_min": "Name is too short",
+    "password_min_length": "Password must be more than 6 characters",
+    "customer_invalid_phone": "Customer phone is invalid",
+    "customer_invalid_email": "Customer email is invalid",
+    "customer_lastname_required": "Customer lastname is required",
+    "customer_firstname_required": "Customer firstname is required",
+    "address.country_errors_base": "Country is required",
+    "address.province_errors_base": "Province is required",
+    "address.city_errors_base": "City is required",
+    "no_product_selected": "No product selected",
+
+    "error_theme_activated" : "Error active theme",
+    "error_theme_added" : "Error add theme",
+    "error_app_activated" : "Error active application",
+    "error_app_added" : "Error add application"
+}

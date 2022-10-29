@@ -1,0 +1,16 @@
+{
+    "list": "Pages",
+    "create": "New page",
+    "update": "Edit page",
+    "details": "Pages details",
+    "overview" : "Page information",
+    "post_content" : "Page content",
+    "title_label" : "Title",
+    "title_hint" : "title",
+    "url_label" : "Url",
+    "url_hint" : "/",
+    "status_label" : "Status",
+    "description_label" : "Description",
+    "description_hint" : "description...",
+    "content_label" : "Content"
+}

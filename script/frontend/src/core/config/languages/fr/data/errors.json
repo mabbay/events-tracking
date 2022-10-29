@@ -1,0 +1,24 @@
+{
+    "errors": "Erreurs",
+    "error": "Erreur",
+    "error_creating": "Erreur de la création",
+    "error_updating" : "Erreur de la misse à jour",
+    "error_deleting" : "Erreur de suppression",
+
+    "name_errors_empty": "Le nom est requis",
+    "name_errors_min": "Le nom est trop court",
+    "password_min_length": "Le mot de passe doit contenir plus de 6 caractères",
+    "customer_invalid_phone": "Le téléphone du client n'est pas valide",
+    "customer_invalid_email": "L'adresse e-mail du client est invalide",
+    "customer_lastname_required": "Le nom du client est requis",
+    "customer_firstname_required": "Le prénom du client est requis",
+    "address.country_errors_base": "Le pays est requis",
+    "address.province_errors_base": "La province est requise",
+    "address.city_errors_base": "La ville est requise",
+    "no_product_selected": "Aucun produit sélectionné",
+    
+    "error_theme_activated" : "Erreur activer le thème",
+    "error_theme_added" : "Erreur ajoute le thème",
+    "error_app_activated" : "Erreur activer l'application",
+    "error_app_added" : "Erreur ajoute l'application"
+}

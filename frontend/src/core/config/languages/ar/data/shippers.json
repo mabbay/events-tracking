@@ -1,0 +1,15 @@
+{
+    "list": "شركات الشحن",
+    "create": "إضافة شركات الشحن",
+    "update": "تعديل شركات الشحن",
+    "details": "تفاصيل الشاحنين",
+    "overview": "معلومات شركات الشحن",
+    "name_label": "الاسم",
+    "name_hint": "الاسم",
+    "logo_label": "شعار شركة الشحن",
+    "logo_hint": "حدد صورة",
+    "link_label": "ربط الشحن",
+    "link_hint": "حدد شركة الشحن",
+    "description_label": "الوصف",
+    "description_hint": "الوصف ..."
+}

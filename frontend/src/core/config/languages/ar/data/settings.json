@@ -1,0 +1,23 @@
+{
+    "general": "عام",
+  "general_description": "وصف عام",
+  "apps": "التطبيق",
+  "apps_description": "وصف التطبيق",
+  "seo": "SEO",
+  "seo_description": "وصف تحسين محركات البحث",
+  "payment": "الدفع",
+  "payment_description": "وصف الدفع",
+  "orders_status": "حالة الطلبات",
+  "orders_status_description": "وصف حالة الطلبات",
+  "languages_currencies": "اللغات والعملات",
+  "languages_currencies_description": "وصف اللغات والعملات",
+  "users_roles": "المستخدمون والأدوار",
+  "users_roles_description": "وصف المستخدمين والأدوار",
+  "checkout": "صفحة اتمام الطلبية",
+  "checkout_description": "وصف صفحة اتمام الطلبية",
+  "payments": "طرق الدفع",
+  "payments_label": "طرق الدفع",
+  "payments_hint": "طرق الدفع ..."
+  
+
+}

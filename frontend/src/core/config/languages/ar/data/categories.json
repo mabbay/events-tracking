@@ -1,0 +1,13 @@
+{
+    "list": "الفئات",
+  "create": "فئة جديدة",
+  "update": "تعديل الفئة",
+  "details": "تفاصيل الفئة",
+  "overview": "معلومات الفئة",
+  "name_label": "الاسم",
+  "name_hint": "الاسم ...",
+  "url_label": "عنوان Url",
+  "url_hint": "/",
+  "description_label": "الوصف",
+  "description_hint": "وصف ..."
+}

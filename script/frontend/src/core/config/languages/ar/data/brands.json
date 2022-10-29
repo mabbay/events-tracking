@@ -1,0 +1,13 @@
+{
+    "list": "العلامات التجارية",
+  "create": "علامة تجارية جديدة",
+  "update": "تحرير العلامة التجارية",
+  "details": "تفاصيل العلامة التجارية",
+  "overview": "معلومات العلامة التجارية",
+  "name_label": "الاسم",
+  "name_hint": "الاسم ...",
+  "slug_label": "URL",
+  "slug_hint": "/",
+  "description_label": "الوصف",
+  "description_hint": "الوصف"
+}

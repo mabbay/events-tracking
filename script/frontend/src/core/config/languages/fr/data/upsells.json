@@ -1,0 +1,16 @@
+{
+    "list": "Upsells",
+    "create": "Nouvel upsell",
+    "update": "Modifier upsell",
+    "details": "Détails upsell",
+    "overview":"Upsell information",
+
+    "name_label" : "Nom",
+    "name_hint" : "nom...",
+    "description_label" : "Description",
+    "description_hint" : "description...",
+    "collections_label" : "Collections",
+    "collections_hint" : "collections...",
+    "discount_label" : "Remise",
+    "discount_hint" : "remise..."
+}

@@ -1,0 +1,818 @@
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdG9yZSI6eyJfaWQiOiI1ZWI1MzA2YTk1YjNiNTAzNzBkMjg4MDQifSwidXNlciI6eyJfaWQiOiI1ZWI1MzA2YTk1YjNiNTAzNzBkMjg4MDUifSwiaWF0IjoxNjAzNzA0ODkzLCJleHAiOjE2MzUyNDA4OTN9.TJAoRXDx8i3jDNlLjYWcACGAjcrXF_f-SDbkTjL2FsY
+@tokenDEV = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdG9yZSI6eyJfaWQiOiI1ZWI1MzA2YTk1YjNiNTAzNzBkMjg4MDQifSwidXNlciI6eyJfaWQiOiI1ZWI1MzA2YTk1YjNiNTAzNzBkMjg4MDUifSwiaWF0IjoxNjAzNzA0ODkzLCJleHAiOjE2MzUyNDA4OTN9.TJAoRXDx8i3jDNlLjYWcACGAjcrXF_f-SDbkTjL2FsY
+
+@tokenKarim = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdG9yZSI6eyJfaWQiOiI1ZmUyMjczN2E5NTU0YjAwOTIyNGJmMWEiLCJuYW1lIjoia2FyaW0yIiwic3ViZG9tYWluIjoia2FyaW0yLnN0b3JlaW5vLmNvbSJ9LCJ1c2VyIjp7Il9pZCI6IjVmZGUwMjE5YmRiZmIwMDE0YWQ5Nzg0NSIsImZpcnN0bmFtZSI6ImFiZGVsa2FyaW0iLCJsYXN0bmFtZSI6Im1hbWFyY2gifSwiY29tcGFueSI6eyJfaWQiOiI1ZmRlMDIxOWJkYmZiMDAxNGFkOTc4NDMiLCJuYW1lIjoiMnN0b3JlaW5vIiwic3RhdHVzIjoiVU5DT01QTEVURUQifSwiaWF0IjoxNjA5Nzc3OTE4LCJleHAiOjE2NDEzMTM5MTh9.Jlh0KZIbxSYdBstMhMLQElMhuNspmeuKBNXyVVciDnE
+@tokenNewStore = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdG9yZSI6eyJfaWQiOiI2MDA4MTcyNWFmYjRlNjA5YTU2Y2QwNGQiLCJuYW1lIjoic3RvcmVpbm9tYW5hZ2VyIiwic3ViZG9tYWluIjoic3RvcmVpbm9tYW5hZ2VyLnN0b3JlaW5vLmNvbSJ9LCJ1c2VyIjp7Il9pZCI6IjYwMDZmYWQ5MmE1NTdhMDg4OTY3ZWZjYyIsImZpcnN0bmFtZSI6ImFuYXMiLCJsYXN0bmFtZSI6ImVsIGZhZGlsaSJ9LCJjb21wYW55Ijp7Il9pZCI6IjYwMDZmYWQ5MmE1NTdhMDg4OTY3ZWZjYSIsIm5hbWUiOiJhbmFzLUNvbXBhbnkiLCJzdGF0dXMiOiJhY3RpdmUifSwiaWF0IjoxNjEyMDAzOTkwLCJleHAiOjE2NDM1Mzk5OTB9.zNIk4n_s_654n9DodVoP8Mqb6rEQdi9kHRrqH1MT-BA
+
+
+###
+GET https://api-stores.storeino.com/api/methods/search
+x-auth-token: {{tokenNewStore}}
+
+###
+POST https://api-stores.storeino.com/api/settings/createMany
+x-auth-token: {{tokenKarim}}
+Content-Type: application/json
+
+[
+      {
+        "section": {
+          "name": "checkout",
+          "icon": "settings",
+          "index": 0
+        },
+        "options": null,
+        "name": "checkout_steps",
+        "type": "input",
+        "index": 2,
+        "hidden": false,
+        "key": "checkout_steps",
+        "value": {
+          "informations_step_text": "Informations",
+          "shipping_step_text": "Shipping",
+          "methods_step_text": "Methods",
+          "preview_step_text": "Order Preview",
+          "show_preview": false,
+          "show_shipping": false,
+          "show_methods": false
+        }
+      },
+      {
+        "section": {
+          "name": "checkout",
+          "icon": "settings",
+          "index": 0
+        },
+        "options": null,
+        "name": "checkout_labels",
+        "type": "input",
+        "index": 2,
+        "hidden": false,
+        "key": "checkout_labels",
+        "value": {
+          "firstname": "First name",
+          "lastname": "Last name",
+          "email": "Email",
+          "phone": "Phone",
+          "password": "Password",
+          "address1": "Address line 1",
+          "address2": "Address line 2"
+        }
+      },
+      {
+        "section": {
+          "name": "checkout",
+          "icon": "settings",
+          "index": 0
+        },
+        "options": null,
+        "name": "checkout_placeholders",
+        "type": "input",
+        "index": 2,
+        "hidden": false,
+        "key": "checkout_placeholders",
+        "value": {
+          "firstname": "First name",
+          "lastname": "Last name",
+          "email": "Email",
+          "phone": "Phone",
+          "password": "Password",
+          "address1": "Address line 1",
+          "address2": "Address line 2",
+          "countries": "Country",
+          "provinces": "Province",
+          "cities": "City",
+          "coupon": "Coupon Code"
+        }
+      },
+      {
+        "section": {
+          "name": "checkout",
+          "icon": "settings",
+          "index": 0
+        },
+        "options": null,
+        "name": "checkout_error_messages",
+        "type": "input",
+        "index": 2,
+        "hidden": false,
+        "key": "checkout_error_messages",
+        "value": {
+          "firstname": "Invalid first name",
+          "lastname": "Invalid last name",
+          "email": "Invalid email",
+          "phone": "Invalid phone",
+          "password": "Invalid password",
+          "address1": "Invalid address1",
+          "address2": "Invalid address2",
+          "countries": "Invalid country",
+          "provinces": "Invalid province",
+          "cities": "Invalid city",
+          "coupon": "Invalid coupon"
+        }
+      },
+      {
+        "section": {
+          "name": "checkout",
+          "icon": "settings",
+          "index": 0
+        },
+        "options": null,
+        "name": "checkout_headlines",
+        "type": "input",
+        "index": 2,
+        "hidden": false,
+        "key": "checkout_headlines",
+        "value": {
+          "customer_bloc_text": "Customer Informations",
+          "address_bloc_text": "Customer Address",
+          "list_text": "Price details",
+          "subtotal_text": "Subtotal",
+          "discount_text": "Discount",
+          "shipping_text": "Shipping",
+          "totalAmount_text": "Total",
+          "method_text": "Payment method",
+          "customer_preview_text": "Billing Details",
+          "address_preview_text": "Shipping Details",
+          "coupon_button_text": "Apply",
+          "back_button_text": "Back",
+          "next_button_text": "Next",
+          "place_order_button_text": "Confirm",
+          "customer_information_text": "Customer Informations",
+          "customer_address_text": "Customer Address",
+          "create_account_text": "Create an account?"
+        }
+      },
+      {
+        "section": {
+          "name": "checkout",
+          "icon": "settings",
+          "index": 0
+        },
+        "options": null,
+        "name": "checkout_defaults",
+        "type": "input",
+        "index": 2,
+        "hidden": false,
+        "key": "checkout_defaults",
+        "value": {
+          "has_country": false,
+          "has_province": false,
+          "has_city": false,
+          "has_shipping": true,
+          "has_method": true,
+          "country": null,
+          "province": null,
+          "city": null,
+          "shipping": 0,
+          "method": {
+            "isOnline": false,
+            "isActive": true,
+            "_id": "5feb408a2ef4130539efb9e0",
+            "name": "CashOnDelivery",
+            "logo": "https://storeino.b-cdn.net/assets/others/banktransfer.png",
+            "__v": 0
+          }
+        }
+      },
+      {
+        "section": {
+          "name": "checkout",
+          "icon": "settings",
+          "index": 0
+        },
+        "options": null,
+        "name": "checkout_required_fields",
+        "type": "input",
+        "index": 999,
+        "hidden": false,
+        "key": "checkout_required_fields",
+        "value": {
+          "firstname": true,
+          "lastname": true,
+          "email": true,
+          "phone": true,
+          "password": false,
+          "address1": true,
+          "address2": false,
+          "countries": true,
+          "provinces": true,
+          "cities": true,
+          "coupon": false,
+          "show_email": true,
+          "show_phone": true,
+          "show_address1": true,
+          "show_address2": false,
+          "show_countries": true,
+          "show_provinces": true,
+          "show_cities": true,
+          "show_password": true,
+          "show_coupon": true,
+          "show_create_account": false
+        }
+      }   
+]
+
+###
+GET http://167.71.141.160:3001/api/stores/search
+x-auth-token: {{token}}
+###
+GET http://167.71.141.160:3001/api/settings/current
+x-auth-token: {{token}}
+
+###
+GET http://167.71.141.160:3001/api/settings/search/?section.name=checkout
+x-auth-token: {{token}}
+###
+GET http://167.71.141.160:3001/api/settings/keyval
+x-auth-token: {{token}}
+###
+DELETE http://167.71.141.160:3001/api/settings/delete/?key=checkout_required_fields
+x-auth-token: {{token}}
+###
+POST  http://167.71.141.160:3001/api/settings/update/?key=checkout_error_messages
+x-auth-token: {{token}}
+Content-Type: application/json
+
+{
+        
+  
+       
+    
+    
+    
+      "value": {
+        "firstname": "Invalid first name",
+        "lastname": "Invalid last name",
+        "address_firstname": "Invalid first name",
+        "address_lastname": "Invalid last name",
+        "email": " Invalid email",
+        "phone": "Invalid phone",
+        "password": " Invalid password",
+        "address1": " Invalid address1",
+        "address2": " Invalid address2",
+        "countries": " Invalid country",
+        "provinces": "Invalid province",
+        "cities": " Invalid city",
+        "coupon": "Invalid coupon"
+      }
+  }
+
+###
+POST https://api-stores.storeino.world/api/products/update
+?id=5ff2fd54ab81df149504d3aa
+x-auth-token: {{token}}
+Content-Type: application/json
+
+{
+    "type": "variable",
+    "tags": [],
+    "status": "DRAFT",
+    "description": "",
+    "slug": "test-varients-product",
+    "reference": "r8e3Z_1609760045459",
+    "price": {
+        "buyingPrice": "0",
+        "comparePrice": "0",
+        "salePrice": "0"
+    },
+    "html": "",
+    "collections": [],
+    "name": "test varients product",
+    "options": [
+        {
+            "values": [
+                {
+                    "value1": "XXL",
+                    "value2": "XXL",
+                    "_id": "5ff2fd54ab81df149504d3b5"
+                },
+                {
+                    "value1": "XL",
+                    "value2": "XL",
+                    "_id": "5ff2fd54ab81df149504d3b7"
+                }
+            ],
+            "_id": "5ff2fd54ab81df149504d3ab",
+            "key": "size",
+            "name": "Size"
+        }
+    ],
+    "variants": [
+        {
+            "option1": {
+                "option": "5ff2fd54ab81df149504d3ab",
+                "value": "5ff2fd54ab81df149504d3b5"
+            },
+            "price": {
+                "buyingPrice": "30",
+                "salePrice": "50",
+                "comparePrice": "100"
+            },
+            "quantity": {
+                "instock": "10",
+                "transporting": 0
+            },
+            "sizes": {
+                "weight": {
+                    "value": 0,
+                    "unite": "kg"
+                },
+                "volume": {
+                    "value": 0,
+                    "unite": "ml"
+                },
+                "dimensions": {
+                    "width": 0,
+                    "height": 0,
+                    "depth": 0,
+                    "unite": "cm"
+                }
+            },
+            "unavailable": false,
+            "translates": [],
+            "_id": "5ff2fd54ab81df149504d3b6",
+            "name": "XXL"
+        },
+        {
+            "option1": {
+                "option": "5ff2fd54ab81df149504d3ab",
+                "value": "5ff2fd54ab81df149504d3b7"
+            },
+            "price": {
+                "buyingPrice": "30",
+                "salePrice": "30",
+                "comparePrice": "100"
+            },
+            "quantity": {
+                "instock": "10",
+                "transporting": 0
+            },
+            "sizes": {
+                "weight": {
+                    "value": 0,
+                    "unite": "kg"
+                },
+                "volume": {
+                    "value": 0,
+                    "unite": "ml"
+                },
+                "dimensions": {
+                    "width": 0,
+                    "height": 0,
+                    "depth": 0,
+                    "unite": "cm"
+                }
+            },
+            "unavailable": false,
+            "translates": [],
+            "_id": "5ff2fd54ab81df149504d3b8",
+            "name": "XL"
+        }
+    ],
+    "images": [
+        {
+            "title": "",
+            "width": 0,
+            "height": 0,
+            "_id": "5f7762a89a467f0458b97bb1",
+            "src": "https://storeno.b-cdn.net/stores/10-2020/1601659560439.jpeg",
+            "storeId": "5eb5306a95b3b50370d28804"
+        }
+    ],
+    "files": [],
+    "seo": {
+        "keywords": [],
+        "description": ""
+    },
+    "translates": [],
+    "supplier": null,
+    "user": null,
+    "currencies": [
+        {
+            "currency": "EUR",
+            "properties": [
+                {
+                    "name": "price.buyingPrice",
+                    "value": "0"
+                },
+                {
+                    "name": "price.salePrice",
+                    "value": "0"
+                },
+                {
+                    "name": "price.comparePrice",
+                    "value": "0"
+                }
+            ]
+        },
+        {
+            "currency": "USD",
+            "properties": [
+                {
+                    "name": "price.buyingPrice",
+                    "value": "0"
+                },
+                {
+                    "name": "price.salePrice",
+                    "value": "0"
+                },
+                {
+                    "name": "price.comparePrice",
+                    "value": "0"
+                }
+            ]
+        }
+    ]
+}
+###
+POST http://167.71.141.160:3001/api/settings/create
+x-auth-token: {{token}}
+Content-Type: application/json
+
+   {"section": {
+      "name": "checkout",
+      "icon": "settings",
+      "index": 0
+    },
+    "name": "checkout_required_fields",
+    "type": "input",
+    "index": 2,
+    "hidden": false,
+    "key": "checkout_required_fields",
+        "value": {
+      "firstname": true,
+      "lastname": true,
+      "email": true,
+      "phone": true,
+      "password": true,
+      "address1": true,
+      "address2": true,
+      "countries": true,
+      "provinces": true,
+      "cities": true,
+      "coupon": false
+    }}
+
+###
+POST http://167.71.141.160:3001/api/settings/createMany
+x-auth-token: {{token}}
+Content-Type: application/json
+
+[
+    {
+      "section": {
+        "name": "checkout",
+        "icon": "settings",
+        "index": 0
+      },
+      "options": null,
+      "_id": "5fe32fce34ca781137ef5985",
+      "name": "checkout_steps",
+      "type": "input",
+      "index": 2,
+      "hidden": false,
+      "key": "checkout_steps",
+      "value": {
+        "informations_step_text": "Informations",
+        "shipping_step_text": "Shipping",
+        "methods_step_text": "Payment",
+        "preview_step_text": "Order Preview",
+        "show_preview": false,
+        "show_shipping": true,
+        "show_methods": true
+      },
+      "storeId": "5eb5306a95b3b50370d28804",
+      "__v": 0
+    },
+    {
+      "section": {
+        "name": "checkout",
+        "icon": "settings",
+        "index": 0
+      },
+      "options": null,
+      "_id": "5fe32fce34ca781137ef5986",
+      "name": "checkout_labels",
+      "type": "input",
+      "index": 2,
+      "hidden": false,
+      "key": "checkout_labels",
+      "value": {
+        "firstname": "First name",
+        "lastname": "Last name",
+         "address_firstname": "First name",
+        "address_lastname": "Last name",
+        "email": "Email",
+        "phone": "Phone",
+        "password": "Password",
+        "address1": "Address1",
+        "address2": "Address2",
+      },
+      "storeId": "5eb5306a95b3b50370d28804",
+      "__v": 0
+    },
+    {
+      "section": {
+        "name": "checkout",
+        "icon": "settings",
+        "index": 0
+      },
+      "options": null,
+      "_id": "5fe32fce34ca781137ef5987",
+      "name": "checkout_placeholders",
+      "type": "input",
+      "index": 2,
+      "hidden": false,
+      "key": "checkout_placeholders",
+      "value": {
+        "firstname": "First name",
+        "lastname": "Last name",
+        "address_firstname": "First name",
+        "address_lastname": "Last name",
+        "email": "Email",
+        "phone": "Phone",
+        "password": "Password",
+        "address1": "Address1",
+        "address2": "Address2",
+        "countries": "Countries",
+        "provinces": "Provinces",
+        "cities": "Cities",
+        "coupon": "Coupon Code"
+      },
+      "storeId": "5eb5306a95b3b50370d28804",
+      "__v": 0
+    },
+    {
+      "section": {
+        "name": "checkout",
+        "icon": "settings",
+        "index": 0
+      },
+      "options": null,
+      "_id": "5fe32fce34ca781137ef5988",
+      "name": "checkout_error_messages",
+      "type": "input",
+      "index": 2,
+      "hidden": false,
+      "key": "checkout_error_messages",
+      "value": {
+        "firstname": "Invalid first name",
+        "lastname": "Invalid last name",
+        "address_firstname": "Invalid first name",
+        "address_lastname": "Invalid last name",
+        "email": " Invalid email",
+        "phone": "Invalid phone",
+        "password": " Invalid password",
+        "address1": " Invalid address1",
+        "address2": " Invalid address2",
+        "countries": " Invalid country",
+        "provinces": "Invalid province",
+        "cities": " Invalid city",
+        "coupon": "Invalid coupon"
+      },
+      "storeId": "5eb5306a95b3b50370d28804",
+      "__v": 0
+    },
+    {
+      "section": {
+        "name": "checkout",
+        "icon": "settings",
+        "index": 0
+      },
+      "options": null,
+      "_id": "5fe32fce34ca781137ef598a",
+      "name": "checkout_headlines",
+      "type": "input",
+      "index": 2,
+      "hidden": false,
+      "key": "checkout_headlines",
+      "value": {
+        "customer_bloc_text": "Customer Informations",
+        "address_bloc_text": "Customer Address",
+        "list_text": "Price details",
+        "subtotal_text": "Subtotal",
+        "discount_text": "Discount",
+        "shipping_text": "Shipping",
+        "total_amount_text": "Total Amount",
+        "method_text": "Payment method",
+        "customer_preview_text": "Billing Details",
+        "address_preview_text": "Shipping Details",
+        "coupon_button_text": "Apply",
+        "back_button_text": "Back",
+        "next_button_text": "Next",
+        "place_order_button_text": "Confirme",
+        "customer_information_text":"Customer Information",
+        "customer_address_text":"Customer Address",
+        "create_account_text":"Create an account?",
+      },
+      "storeId": "5eb5306a95b3b50370d28804",
+      "__v": 0
+    },
+    {
+      "section": {
+        "name": "checkout",
+        "icon": "settings",
+        "index": 0
+      },
+      "options": null,
+      "_id": "5fe336a834ca781137ef5a1c",
+      "name": "checkout_defaults",
+      "type": "input",
+      "index": 2,
+      "hidden": false,
+      "key": "checkout_defaults",
+      "value": {
+        "has_countries":true,
+        "has_cities":true,
+        "has_provinces":true,
+        "has_shipping":true,
+        "has_method":true,
+        "countries": null,
+        "provinces": null,
+        "cities": null,
+        "shipping": null,
+        "method": null
+      },
+      "storeId": "5eb5306a95b3b50370d28804",
+      "__v": 0
+    },
+    {
+      "section": {
+        "name": "checkout",
+        "icon": "settings",
+        "index": 0
+      },
+      "options": null,
+      "_id": "5fe5d44c2feca711516cb2bc",
+      "name": "checkout_required_fields",
+      "type": "input",
+      "index": 2,
+      "hidden": false,
+      "key": "checkout_required_fields",
+      "value": {
+        "firstname": true,
+        "lastname": true,
+        "email": true,
+        "phone": true,
+        "password": true,
+        "address1": true,
+        "address2": true,
+        "countries": true,
+        "provinces": true,
+        "cities": true,
+        "coupon": false,
+         "show_email":true,
+        "show_phone":true,
+        "show_address2":true,
+        "show_countries":true,
+        "show_provinces":true,
+        "show_cities":true,
+        "show_password":true,
+        "show_coupon":true,
+        "show_create_account":true,
+      },
+      "storeId": "5eb5306a95b3b50370d28804",
+      "__v": 0
+    }
+  ]
+
+    
+
+   
+###
+POST http://167.71.141.160:3001/api/settings/create
+Content-Type: application/json
+
+{
+    "options": {
+        "multiple": true,
+        "select_key": "code",
+        "select_label": "name"
+    },
+    "name": "Facebook pixel",
+    "description": "Facebook pixel ...",
+    "info": "Facebook pixel ...",
+    "key": "store_facebook_pixels",
+    "type": "select",
+    "index":0,
+    "value": [
+        {
+            "code": "000000000000000000",
+            "name": "test pixel"
+        }
+    ],
+    "default": [
+        {
+            "code": "000000000000000000",
+            "name": "test pixel"
+        }
+    ],
+    "section": {
+        "name": "general",
+        "icon": "settings",
+        "index": 0
+    },
+    "hidden": true,
+    "regex": "\\w+"
+}
+
+###
+POST http://167.71.141.160:3001/api/methods/update/?id=5f649b5f28f57f002d644109
+x-auth-token: {{token}}
+Content-Type: application/json
+
+{
+    "logo": "https://storeino.b-cdn.net/assets/others/amanpay.png"
+}
+
+
+###
+GET http://167.71.141.160:3001/api/analytics/dashboard/
+
+
+###
+GET http://167.71.141.160:3001/api/ordernotes/search/
+
+###
+POST http://167.71.141.160:3001/api/menus/update/?id=5f19ae7149d54b6437d511e7
+Content-Type: application/json
+
+{
+    "translates":[
+        {
+            "language":"FR",
+            "properties": [
+                {
+                    "name": "items.0.text",
+                    "value": "Accueil"
+                }
+            ]
+        }
+    ]
+}
+
+
+###
+GET http://167.71.141.160:3001/api/themes/search/
+
+###
+POST http://167.71.141.160:3001/api/themes/update/?id=5f801e858daf9106db56ddd0
+Content-Type: application/json
+
+{
+    "isActive":false
+}
+
+
+###
+GET http://167.71.141.160:3001/api/apps/search/
+
+###
+GET http://167.71.141.160:3001/api/analytics/getOrders
+
+###
+GET http://167.71.141.160:3001/api/analytics/paymentStats
+
+###
+GET http://167.71.141.160:3001/api/analytics/orderProduct
+
+###
+GET http://167.71.141.160:3001/api/analytics/orderStatus
+
+###
+POST https://shipping.storeino.com/api/koutim/index.php
+x-auth-token: 7DNmLNLtSpWEUyxh2C7WEX8bsYPqhABZ
+Content-Type: application/json
+
+[{"customer":{"_id":"600bfa03056a0609e84bbf8c","firstname":"abderrahim","lastname":"oukhrib","email":"hobi@mailinator.com"},"shipping":{"isFixed":true,"price":0,"address":{"city":{"_id":"5fe34e832c340e031376e6b2","name":"imouzzer kandar"},"province":{"name":"fès-meknès","_id":"5fe34e832c340e031376e6ab"},"country":{"_id":"5fe34e832c340e031376e650","name":"maroc"},"default":false,"_id":"600bfa03056a0609e84bbf8d","firstname":"Abderrahim","lastname":"Oukhrib","address1":"929 North Old Extension","phone":"+1 (406) 848-7585"}},"discount":{"percentage":0},"method":{"_id":"5feb408a2ef4130539efb9e0","name":"CashOnDelivery"},"note":{"_id":"60095ae134bf8407de7f5b29","name":"PENDING","color":"#bab4f8"},"status":"PENDING","_id":"60413e3e608aaa05ee51b214","currency":"MAD","details":[{"product":{"price":{"buyingPrice":0,"salePrice":10,"comparePrice":10},"_id":"60095b1234bf8407de7f5bd2","name":"Hello product"},"quantity":1,"price":10,"_id":"60413e3e608aaa05ee51b215"}],"storeId":"60095ae1afb4e609a56cd18f","total":10,"createdAt":"2021-03-04T20:08:30.618Z","updatedAt":"2021-03-04T20:08:30.618Z","orderId":915}]
+
+
+
+
+###
+
+POST https://api-stores.storeino.com/api/orders/update?id=60413e3e608aaa05ee51b214
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7Il9pZCI6IjVmZGI4MjE1ODA5NWRiMDBkNzc4MDg4NiIsImZpcnN0bmFtZSI6ImFiZGVycmFoaW0iLCJsYXN0bmFtZSI6Im91a2hyaWIifSwiY29tcGFueSI6eyJfaWQiOiI1ZmRiODIxNTgwOTVkYjAwZDc3ODA4ODQiLCJuYW1lIjoiY29tcGFueS0xIiwic3RhdHVzIjoiYWN0aXZlIn0sInN0b3JlIjp7Il9pZCI6IjYwMDk1YWUxYWZiNGU2MDlhNTZjZDE4ZiIsIm5hbWUiOiJvdWtocmliIiwic3ViZG9tYWluIjoib3VraHJpYi5zdG9yZWluby5jb20ifSwiaWF0IjoxNjE0NzY0Nzc5LCJleHAiOjE2NDYzMDA3Nzl9.HwWkYaVrDK2IEMBStnol-aAxbbNeGXqIyaiYlt7NBdk
+Content-Type: application/json;charset=UTF-8
+
+{"status":"COMPLETED"}
+
+
+###
+POST https://shipping.storeino.com/api/globus/status/
+x-auth-token: nHCnbVJXm5A6c2mKNKtpNpKqePur8JLsMsasXFLsyaU5FKUCGnfVPbyg6rxpZ7Wm
+Content-Type: application/json;charset=UTF-8
+
+{
+  "storeId": "60095ae1afb4e609a56cd18f",
+  "orderId": "932",
+  "status":"NOTHING"
+}
+
+###
+"note": {
+    "_id": "60095ae134bf8407de7f5b2d",
+    "name": "REFUNDED",
+    "color": "#636363"
+  },

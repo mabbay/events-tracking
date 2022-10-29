@@ -1,0 +1,10 @@
+{
+    "total_order" :"Commandes",
+    "total_visitor": "Visiteurs",
+    "product_sold": "Produits vendus",
+    "total_revenue": "Revenus total",
+    "earning_revenue_24h" : "Derniers Revenus( 24h )",
+    "orders_by_status" : "Commandes par état",
+    "recent_orders" : "Nouvelles commandes",
+    "total_orders_24h" : "Dernières Commandes (24h)"
+}

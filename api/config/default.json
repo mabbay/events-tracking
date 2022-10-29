@@ -1,0 +1,14 @@
+{
+    "app": {
+        "name": "Storeino Core"
+    },
+    "db": {
+        "host": "mongodb+srv://db_user:azeaze@cluster0.md8bj.mongodb.net/events_tracking?retryWrites=true&w=majority"
+    },
+    "jwt": {
+        "keys": {
+            "authToken": "authTokenSecretKey",
+            "refreshToken": "refreshTokenSecretKey"
+        }
+    }
+}

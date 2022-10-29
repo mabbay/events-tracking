@@ -1,0 +1,22 @@
+{
+    "general" : "General",
+    "general_description" : "General description",
+    "apps" : "Application",
+    "apps_description" : "Application description",
+    "seo" : "SEO",
+    "seo_description" : "SEO description",
+    "payment" : "payment",
+    "payment_description" : "Payment description",
+    "orders_status" : "Orders status",
+    "orders_status_description" : "Orders status description",
+    "languages_currencies" : "Languages & Currencies",
+    "languages_currencies_description" : "Languages & currencies description",
+    "users_roles" : "Users & Roles",
+    "users_roles_description" : "Users & roles description",
+    "checkout" : "Checkout",
+    "checkout_description" : "Checkout description",
+    "payments": "Payments Methods",
+    "payments_label": "Payments Methods",
+    "payments_hint": "Payments Methods ..."
+
+}

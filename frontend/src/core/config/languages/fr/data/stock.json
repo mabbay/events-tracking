@@ -1,0 +1,7 @@
+{
+    "list": "Gestion de stock",
+    
+    "quantity_instock" : "Quantité en stock",
+    "quantity_transporting" : "Quantité en expédition",
+    "select_supplier" : "Sélectionner fournisseur"
+}

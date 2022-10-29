@@ -1,0 +1,41 @@
+{
+  "name": "store_api",
+  "version": "1.0.0",
+  "description": "Bla bla",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest --watchAll --runInBand",
+    "build": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.1",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "faker": "^4.1.0",
+    "form-data": "^3.0.1",
+    "joi-objectid": "^3.0.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.12.2",
+    "pluralize": "^8.0.0",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "jest": "^26.6.3",
+    "supertest": "^6.1.3"
+  }
+}

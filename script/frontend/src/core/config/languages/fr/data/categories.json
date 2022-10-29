@@ -1,0 +1,13 @@
+{
+    "list": "Catégories",
+    "create": "Nouvelle catégories",
+    "update": "Modifier la catégorie",
+    "details": "Afficher les détails",
+    "overview" : "Catégorie information",
+    "name_label" : "Nom",
+    "name_hint" : "nom...",
+    "url_label" : "Url",
+    "url_hint" : "/",
+    "description_label" : "Description",
+    "description_hint" : "description..."
+}

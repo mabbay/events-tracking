@@ -1,0 +1,17 @@
+{
+    "list": "Factures",
+    "view" : "Détail facture",
+    "date" : "Date de facture",
+    "recipient" : "Destinataire",
+    "store" : "Boutique",
+    "description" : "Description",
+    "unit_cost" : "Coût unitaire",
+    "quantity" : "quantité",
+    "amount" : "montant",
+    "subtotal" : "sous-total",
+    "discount" : "remise",
+    "shipping" : "livraison",
+    "total" : "total",
+    "send" : "Envoyer la facture",
+    "print" : "Impression"
+}

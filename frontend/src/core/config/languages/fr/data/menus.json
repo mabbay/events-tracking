@@ -1,0 +1,14 @@
+{
+    "list": "Menus",
+    "create": "Nouveau menu",
+    "update": "Modifier le menu",
+    "details": "Détails du menu",
+    "name_label" : "Nom",
+    "name_hint" : "nom ...",
+    "no_item_found" : "Aucun element trouvé",
+    "add_item" : "Ajouter élément",
+    "add_edit_items" : "Ajouter/Éditer élément",
+    "url_label" : "Url",
+    "url_hint" : "/",
+    "target_label" : "Cible"
+}

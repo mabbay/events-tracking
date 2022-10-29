@@ -1,0 +1,14 @@
+{
+    "list": "اللغات والعملات",
+  "languages_label": "اللغات",
+  "languages_hint": "اختر لغات متجرك.",
+  "currencies_label": "العملات",
+  "currencies_hint": "اختر العملات لمتجرك.",
+  "languages_add": "أضف لغات",
+  "languages_select": "حدد اللغات",
+  "currencies_add": "إضافة عملات",
+  "currencies_select": "تحديد العملات",
+
+  "currencies_change": "تغيير العملات",
+  "languages_change": "تغيير اللغات"
+}

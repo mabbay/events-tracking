@@ -1,0 +1,18 @@
+{
+    "list": "Posts",
+    "create": "New post",
+    "update": "Edit post",
+    "details": "Post details",
+    "overview" : "Post information",
+    "content" : "Post content",
+    "post_content" : "Post content",
+    "title_label" : "Title",
+    "title_hint" : "title",
+    "url_label" : "Url",
+    "url_hint" : "/",
+    "status_label" : "Status",
+    "description_label" : "Description",
+    "description_hint" : "description...",
+    "content_label" : "Content",
+    "categories_hint" : "Select categories"
+}

@@ -1,0 +1,13 @@
+{
+    "list": "Users",
+    "create": "New User",
+    "update": "Edit user",
+    "details": "User details",
+    "overview" : "User information",
+    "name_label" : "Name",
+    "name_hint" : "name...",
+    "slug_label" : "URL",
+    "slug_hint" : "/",
+    "description_label" : "Description",
+    "description_hint" : "Description"
+}

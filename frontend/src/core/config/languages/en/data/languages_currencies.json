@@ -1,0 +1,14 @@
+{
+    "list":"Languages & Currencies",
+    "languages_label" : "Languages",
+    "languages_hint" : "Choose the languages for your store.",
+    "currencies_label" : "Currencies",
+    "currencies_hint" : "Choose the currencies for your store.",
+    "languages_add" : "Add languages",
+    "languages_select" : "Select languages",
+    "currencies_add" : "Add currencies",
+    "currencies_select" : "Select currencies",
+    
+    "currencies_change" : "Change currencies",
+    "languages_change":"Change languages"
+}

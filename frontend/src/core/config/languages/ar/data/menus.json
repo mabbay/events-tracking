@@ -1,0 +1,14 @@
+{
+    "list": "القوائم",
+  "create": "قائمة جديدة",
+  "update": "قائمة التعديل",
+  "details": "تفاصيل القائمة",
+  "name_label": "الاسم",
+  "name_hint": "الاسم ...",
+  "no_item_found": "لم يتم العثور على عنصر",
+  "add_item": "إضافة عنصر",
+  "add_edit_items": "إضافة / تحرير عناصر",
+  "url_label": "عنوان Url",
+  "url_hint": "/",
+  "target_label": "الهدف"
+}

@@ -1,0 +1,12 @@
+{
+    "db": {
+        "user": "DB_USER",
+        "password": "DB_PASSWORD"
+    },
+    "jwt": {
+         "keys": {
+            "authToken": "STE_AUTH_KEY",
+            "refreshToken": "STE_REFR_KEY"
+        }
+    }
+}

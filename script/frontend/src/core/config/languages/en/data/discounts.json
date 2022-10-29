@@ -1,0 +1,33 @@
+{
+    
+    "list": "Discounts",
+    "create": "New discount",
+    "update": "Edit discount",
+    "details": "discount details",
+
+    "code_label" : "Code",
+    "code_hint" : "code...",
+    "type_label" : "Type",
+    "value_label" : "Value",
+    "value_hint" : "value...",
+    "active_label" : "Active",
+    "active_hint" : "active",
+    "applyto_hint" : "Apply to",
+    "req_price_label" : "Required price",
+    "req_price_hint" : "value...",
+    "req_quantity_label" : "Required quantity",
+    "req_quantity_hint" : "value...",
+    "start_date_label" : "Start date",
+    "start_date_hint" : "eg :01/01/2021",
+    "end_date_label" : "End date",
+    "end_date_hint" : "eg :01/01/2021",
+    "products_list" : "Products list",
+    "apply_to_order" : "Apply to orders",
+    "fixed_amount" : "Fixed amount",
+    "percentage" : "Percentage",
+    "free_shipping" : "Free shipping",
+    "apply_to_products" : "Apply to products",
+    "active" : "Active",
+    "desactive" : "Desactive",
+    "expired" : "Expired"
+}

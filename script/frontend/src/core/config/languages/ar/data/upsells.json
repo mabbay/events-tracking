@@ -1,0 +1,16 @@
+{
+    "list": "Upsells",
+    "create": "بيع جديد",
+    "update": "تعديل زيادة البيع",
+    "details": "تفاصيل Upsells",
+    "overview": "معلومات Upsell",
+
+    "name_label": "الاسم",
+  "name_hint": "الاسم ...",
+  "description_label": "الوصف",
+  "description_hint": "الوصف ...",
+  "collections_label": "المجموعات",
+  "collections_hint": "مجموعات ...",
+  "discount_label": "خصم",
+  "discount_hint": "خصم ..."
+}

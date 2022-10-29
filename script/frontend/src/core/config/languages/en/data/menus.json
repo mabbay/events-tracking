@@ -1,0 +1,14 @@
+{
+    "list": "Menus",
+    "create": "New menu",
+    "update": "Edit menu",
+    "details": "Menu details",
+    "name_label" : "Name",
+    "name_hint" : "name ...",
+    "no_item_found" : "No item found",
+    "add_item" : "Add item",
+    "add_edit_items" : "Add/Edit items",
+    "url_label" : "Url",
+    "url_hint" : "/",
+    "target_label" : "Target"
+}

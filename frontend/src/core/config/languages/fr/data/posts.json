@@ -1,0 +1,17 @@
+{
+    "list": "Articles",
+    "create": "Nouvel article",
+    "update": "Modifier l'article",
+    "details": "Afficher les détails",
+    "overview" : "Post information",
+    "post_content" : "Post content",
+    "title_label" : "Title",
+    "title_hint" : "title",
+    "url_label" : "Url",
+    "url_hint" : "/",
+    "status_label" : "Status",
+    "description_label" : "Description",
+    "description_hint" : "description...",
+    "content_label" : "Content",
+    "categories_hint" : "Sélectioner catégories"
+}

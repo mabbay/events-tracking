@@ -1,0 +1,14 @@
+{
+    "list":"Langues & devises",
+    "languages_label" : "Langues",
+    "languages_hint" : "Choisissez les langues de votre boutique.",
+    "currencies_label" : "Devises",
+    "currencies_hint" : "Choisissez les devises de votre boutique.",
+    "languages_add" : "Ajouter des langues",
+    "languages_select" : "Sélectionnez les langues",
+    "currencies_add" : "Ajouter des devises",
+    "currencies_select" : "Sélectionnez les devises",
+
+    "currencies_change": "Changer de devise",
+    "languages_change": "Changer de langue"
+}

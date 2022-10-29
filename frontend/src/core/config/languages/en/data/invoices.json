@@ -1,0 +1,17 @@
+{
+    "list": "Invoices",
+    "view" : "View invoice",
+    "date" : "Invoice Date",
+    "recipient" : "Recipient",
+    "store" : "Store",
+    "description" : "Description",
+    "unit_cost" : "Unit cost",
+    "quantity" : "quantity",
+    "amount" : "amount",
+    "subtotal" : "subtotal",
+    "discount" : "discount",
+    "shipping" : "shipping",
+    "total" : "total",
+    "send" : "Send invoice",
+    "print" : "Print"
+}

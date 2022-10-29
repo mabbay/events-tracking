@@ -1,0 +1,11 @@
+{
+    "list": "حالة الطلبات",
+  "create": "إضافة حالة",
+  "add_edit": "إضافة / تعديل حالة الطلبات",
+  "select_status_label": "الحالة",
+  "select_status_hint": "تحديد الحالة",
+  "name_label": "الاسم",
+  "name_hint": "الاسم ...",
+  "color_label": "اللون",
+  "description_label": "الوصف"
+}

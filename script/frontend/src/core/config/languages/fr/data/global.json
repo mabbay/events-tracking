@@ -1,0 +1,221 @@
+{
+
+    
+
+    "show_more": "Afficher plus",
+    "add_new": "Ajouter un nouveau",
+    "add_collection": "Ajouter une collection",
+    "add_peoduct": "Ajouter un produit",
+    "add_menu": "Ajouter un menu",
+    "add_user": "Ajouter une marque",
+    "add_post": "Ajouter un post",
+    "upload_all": "Tout télécharger",
+    "insert_photos": "Insérer des photos",
+
+    "select_collections": "Sélectionner des collections",
+    "select_product": "Sélectionner un produit",
+    "select_menu": "Sélectionner le menu",
+    "select_user": "Sélectionner une marque",
+    "select_post": "Sélectionner une publication",
+    "select_image": "Sélectionner une image",
+    "upload_file": "Télécharger un fichier",
+    "library": "Bibliothèque",
+    "edit_image": "Modifier une image",
+
+    "add_new_item": "Ajouter un nouvel élément",
+    "hide": "Masquer",
+    "home": "Accueil",
+    "checkout": "Checkout",
+    "page_404": "Page 404",
+    "shop": "Boutique",
+    "cart": "Panier",
+    "desktop": "Bureau",
+    "tablet": "Tablette",
+    "mobile": "Mobile",
+    "save": "Enregistrer",
+    "theme_updated": "Le thème est mis à jour",
+
+    "storeino":"Storeino",
+    "stores" : "Boutiques",
+    "manager" : "Gestionnaire",
+    "domains" : "Domaines",
+    "supports" : "Support",
+    "back_to_manager" : "Retour au gestionnaire",
+    "logout" : "Déconnection",
+    "success" : "Succès",
+    "warning":"Alerte",
+    "currencies_upgrade_your_plan" : "Mettre à niveau votre plan",
+    "language_upgrade_your_plan" : "Mettre à niveau votre plan",
+    
+    "creating_successfuly" : "création avec succès",
+    "updating_successfuly" : "Mis à jour avec succès",
+    "confirm_updating" : "Confirmer la mise à jour",
+    "confirm_updating_item" : "confirmer la mise à jour",
+    "deleted_successfuly" : "Supprimé avec succès",
+    "confirm_delete" : "Confirmer la suppression",
+    "confirm_delete_item" : "êtes-vous sûr de vouloir supprimer?",
+    "confirm":"Confirmer",
+    "cancel" : "Annuler",
+    "new_order_to_check" : "Nouvelle commande à vérifier",
+    "customer_created" : "Client créé avec succès",
+    "success_theme_activated" : "Thème activé",
+    "success_theme_added" : "Thème ajouté",
+
+    "view" : "Voir",
+    "update" : "Mettre à jour",
+    "delete" : "Supprimer",
+    "apply" : "Appliquer",
+    "reset" : "Annuler",
+    "edit" : "Modifier",
+    "export":"Exporter",
+    "preview" : "Aperçu",
+
+    "orders": "Commandes",
+    "products" : "Produits",
+    "dashboard" : "Table de bord",
+    "stocks" : "Stocks",
+    "collections" : "Collections",
+    "suppliers" : "Fournisseurs",
+    "users" : "Marques",
+    "discounts" : "Remises et promotions",
+    "upsells" : "Upsells",
+    "customers" : "Clients",
+    "medias" : "Médias",
+    "analytics" : "Statistiques",
+    "store" : "Boutique",
+    "themes" : "Thèmes",
+    "customizer" : "Personnaliser",
+    "menus" : "Menus",
+    "pages" : "Pages",
+    "blog" : "Blog",
+    "posts" : "Articles",
+    "categories" : "Catégories",
+    "delivery" : "Livraison",
+    "shipping_companies" : "Sociétés de Livraison",
+    "zones" : "Zones",
+    "countries" : "Pays",
+    "payments" : "Paiement",
+    "invoices" : "Factures",
+    "apps" : "Applications",
+    "settings" : "Paramètres",
+    "marketing" : "Commercialisation",
+    "reviews" : "Reviews",
+    "formations" : "Tutoriels",
+    "formations_comming_soon":"<span class='font-semibold' > Storeino </span> formations - coming soon...",
+    "images":"Images",
+    "salePrice":"Prix de vente",
+    "comparePrice":"prix comparer",
+    "buyingPrice":"Prix d'achat",
+    "facebook_catalog":"Catalogue Facebook",
+
+
+    "order" : "Commande",
+    "supplier" : "Fournisseur",
+    "product" :"Produits",
+    "quantity" :"Quantité",
+    "price" :"Prix",
+    "search":"Recherche",
+    "date":"Date",
+    "show_store":"Voire la boutique",
+    "products_related":"Produits associée",
+    "collection_related":"Collection associée",
+    "buying_price" : "Prix d'achat",
+    "sale_price" : "Prix promotionnel",
+    "compare_price" : "Prix régulier",
+    "elements":"Éléments",
+    "save_change" : "Actions",
+    "previous" : "Précedent",
+    "next":"Suivant",
+    "back":"Retour",
+    "refresh" : "Actualiser",
+    "archive" : "Archiver",
+    "blank" : "Blank",
+    "self" : "Self",
+    "title"	: "Titre",
+    "public" : "Publier",
+    "trash" : "Trash",
+    "draft" : "Brouillon",
+    "description" : "Déscription",
+    "children" : "Sous-catégorie",
+    "image" : "Image",
+    "name" : "Nom",
+    "type" : "Type",
+    "created_at" : "Date de création",
+    "characters" : "caractères",
+    "email" : "Email",
+    "invoice_id" : "ID Facture",
+    "no_method_found" : "Aucune méthode trouvée",
+    "paid_at" : "Payé à",
+    "role" : "Rôle",
+    "currency":"Devise",
+    "language":"Langue",
+    "default" : "Défaut",
+
+
+    "CashOnDelivery" : "Paiement à la livraison",
+    "paypal" : "PayPal",
+    "cashplus" : "CashPlus",
+    "tashilat" : "Tashilat",
+    "amanty" : "Amanty",
+    "visa_and_mastercard" : "Visa & Mastercard",
+    "coming_soon":"Prochainement",
+
+    "detail" : "Détails",
+    "customer" : "Clients",
+    "status" : "Status",
+    "total" : "Total",
+    "action" : "Actions",
+
+    
+
+
+
+    "users": "Utilisateurs",
+    "users_list": "Liste d'utilisateurs",
+    "create_user": "Ajouter un nouveau utilisateur",
+    "update_user": "Modifier l'utilisateur",
+    "user_details": "Détails d'utilisateur",
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+    
+
+
+
+
+
+    "roles_list": "Roles",
+    "create_roles": "Ajouter un nouveau rôle",
+    "update_roles": "Modifier un rôle",
+    "roles_details": "Afficher les Détails",
+
+
+    
+
+
+
+
+
+
+    "multiplepixel" : "Pixels Facebook",
+    "orders_status_list":"Liste des états de commande",
+    "store_has_expired_for": "Votre boutique est expirée depuis",
+    "store_will_expire_in": "Votre boutique expirera dans",
+    "days": "jours",
+    
+    "your_store_is_expired": "Votre abonnement est expiré",
+    "please_renew_your_subscription": "Veuillez cliquer sur Continuer pour renouveler votre abonnement",
+    "skip": "Ignorer",
+    "continue": "Continuer"
+    
+}

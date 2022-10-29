@@ -1,0 +1,7 @@
+{
+    "list": "Stock management",
+    
+    "quantity_instock" : "Quantity instock",
+    "quantity_transporting" : "Quantity transporting",
+    "select_supplier" : "Select supplier"
+}
